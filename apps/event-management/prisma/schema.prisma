@@ -35,5 +35,6 @@ model Customer {
   firstName String?
   id        String   @id @default(cuid())
   lAstName  String?
+  phone     String?
   updatedAt DateTime @updatedAt
 }
